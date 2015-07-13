@@ -1,0 +1,22 @@
+12/07/2015 Development Bootcamp Day 1
+
+@ notes on paper
+
+Where do we write HTML?
+- Notepad
+- Atom --> free, open source
+- Many others...
+
+<!DOCTYPE html> --> define that the file is a HTML-document
+
+<html> and </html>
+
+<head> --> meta information (not displayed)
+
+<body> --> that is what you see in the browsing window
+
+tabs/spaces --> niet per se nodig, maar je document krijgt meer structuur (Atom helps you)
+
+comment for yourself or others: <!-- text -->
+
+W3schools.com --> hele handige website om html te leren

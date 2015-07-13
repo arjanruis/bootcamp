@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+<link rel="stylesheet" href="metastyle.css">
+</head>
+<body>
+  <div class="navbar">
+  <ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+</div>
+<div class="contacttxt">
+  <p> I appreciate the effort of you visiting this page, but I'm affraid I don't
+  know you well enough to share my email address with you.</p>
+
+  <p> You can, however, find me on <a href="https://nl.linkedin.com/pub/arjan-ruis/6/502/5b9" target="_blank">
+    <img src="linkedin.png" width="25px"></a>
+    and on <a href="https://nl-nl.facebook.com/public/Arjan-Ruis" target="_blank"> <img src="facebook.png" width="25px"> </a> </p>
+    <p> Furthermore, you might see me if you visit Berkel en Rodenrijs (near Rotterdam). </a> </p>
+</div>
+
+      <script src="https://maps.googleapis.com/maps/api/js"></script>
+      <script>
+        function initialize() {
+          var mapCanvas = document.getElementById('map-canvas');
+          var mapOptions = {
+            center: new google.maps.LatLng(52.004807, 4.478909),
+            zoom:13,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          }
+          var map = new google.maps.Map(mapCanvas, mapOptions)
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+      </script>
+    </head>
+    <body>
+      <div id="map-canvas"></div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  background:;
+      font-family:Arial;
+      margin: 0;
+}
+.toppage{
+  position: fixed;
+  width: 100%;
+  margin:0;
+  background-color: #da2323;
+}
+.toppage h1{
+  color: #FFFFFF;
+  margin-left: 10px;
+  font-size: 400%;
+}
+.toppage img{
+  float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+.navbar ul {
+    position: fixed;
+    list-style-type: none;
+    margin-top: 158px;
+    padding: 5px;
+    overflow:hidden;
+    background-color: #c30606;
+    width: 100%;
+}
+.navbar li {
+    float: left;
+}
+.navbar a:link, .navbar a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar a:hover, .navbar a:active {
+    background-color: #FFFFFF;
+    color:#2d2d2b
+}

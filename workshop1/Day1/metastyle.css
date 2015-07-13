@@ -1,0 +1,91 @@
+body {
+  background-image: url("achtergrond.jpg");
+  background-repeat:round;
+  font-family:Arial;
+  margin: 0;
+}
+.navbar ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #009933;
+    width: 100%;
+}
+.navbar li {
+    float: left;
+}
+.navbar a:link, .navbar a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar a:hover, .navbar a:active {
+    background-color: #000000;
+}
+  h1 {
+  color: #FFFFFF;
+  background: #009933;
+  padding-left:8px;
+}
+  h2 {
+    color:#FFFFFF:;
+  }
+h3 {
+  color:#FF9900 ;
+}
+  .picturetxt{
+    color:#FF9900;
+    text-align: center;
+    padding-top: 25px;
+  }
+    img {
+    border-radius: 10%;
+  }
+ .welcometxt{
+    margin:10px auto;
+    padding: 10px;
+    width:700px;
+    background-color: #009933;
+    padding-left:8px;
+    color:#000000;
+    border-radius: 25px;
+  }
+.welcometxt a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.welcometxt a:hover{
+  text-decoration: underline;
+}
+.tags a{
+    color: #14bd2a
+}
+.tags{
+  padding: 10px;
+  margin:20px;
+  background: white;
+  border-radius:25px;
+}
+.contacttxt{
+  padding-top: 25px;
+  margin:10px auto;
+  width:700px;
+  background-color: #009933;
+  padding-left:10px;
+  color:#000000;
+  border-radius: 25px;
+}
+#map-canvas {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  border-radius: 5%;
+}

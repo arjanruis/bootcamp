@@ -1,0 +1,7 @@
+~ = \home\yourname
+
+$ separates your directory and your command
+
+first command, than other arguments all seperated by a space
+
+touch --> creates empty file

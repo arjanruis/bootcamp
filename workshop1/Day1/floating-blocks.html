@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <style>
+    .container {
+      width: 80%;
+      background-color: #4c85f9;
+      margin: 0 auto;
+
+      overflow: auto;
+      zoom: 1;
+    }
+
+    .column1 {
+      background-color: #22aa67;
+      margin: 5%;
+      width: 40%;
+      float: left;
+    }
+    .column2 {
+      background-color: #22aa67;
+      margin: 5%;
+      width: 40%;
+      float: left;
+    }
+    .item {
+      background-color: #14fa22;
+      margin: 5%;
+      height: 100px;
+    }
+
+    @media screen and (max-width: 500px) {
+      .column1 {
+        float: none;
+        width: auto;
+      }
+      .column2 {
+        float: none;
+        width: auto;
+        padding-top:0;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="column1">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+  </div>
+  <div class="column2">
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+  </div>
+</div>
+</body>
+</html>
